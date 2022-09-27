@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon server/server.js"
+  },
+  "engines": {
+    "node": "11.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "foo": "^1.0.0",
+    "moment": "^2.23.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "expect": "^29.0.3",
+    "mocha": "^10.0.0",
+    "node": "^18.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
